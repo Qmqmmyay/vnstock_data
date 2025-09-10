@@ -1,0 +1,32 @@
+_BASE_URL = 'https://livedragon.vdsc.com.vn/'
+
+_ORDER_MATCH_MAPPING = {
+# 'matched_price',
+#  'offer_vol1',
+#  'offer_vol2',
+ 'flr_price': 'floor_price',
+#  'offer_vol3',
+#  'bid_vol1',
+#  'bid_vol2',
+ 'f_sell_vol': 'foreign_sell_vol',
+#  'bid_vol3',
+#  'offer_price3',
+#  'offer_price1',
+#  'offer_price2',
+#  'matched_change',
+#  'avg_price',
+ 'floor_code': 'exchange',
+ 'hig_price': 'high_price',
+ 'trade_time': 'time',
+#  'matched_vol',
+#  'bid_price2',
+#  'bid_price3',
+ 'code': 'symbol',
+ 'f_buy_vol': 'foreign_buy_vol',
+ 'cei_price': 'ceiling_price',
+#  'bid_price1',
+#  'low_price',
+#  'ref_price',
+#  'am_pm',
+#  'matched_total_vol'
+ }
